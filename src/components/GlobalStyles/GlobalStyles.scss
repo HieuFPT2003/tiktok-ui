@@ -4,8 +4,14 @@
 
 :root {
     --primary: rgba(244, 42, 82, 1);
+
+    //default layout
+    --default-layout-header-height:60px;
+    --default-layout-width:1150px;
 }
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 html {
@@ -18,3 +24,7 @@ body {
     line-height: 1.5;
     text-rendering: optimizespeed;
 }
+
+
+
+

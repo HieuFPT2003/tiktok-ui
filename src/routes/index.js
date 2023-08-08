@@ -5,18 +5,15 @@ import Following from '~/pages/Following';
 import Profile from '~/pages/Profile';
 import Upload from '~/pages/Upload';
 
-// Public 
+// Public
 const publicRoutes = [
-    {path: '/',component: Home},
-    {path: '/following',component: Following},
-    {path: '/profile',component: Profile},
-    {path: '/upload',component:Upload, layout : HeaderOnly}
+    { path: '/', component: Home },
+    { path: '/following', component: Following },
+    { path: '/profile', component: Profile },
+    { path: '/upload', component: Upload, layout: HeaderOnly },
 ];
 
-
 // Need Login to use
-const privateRoutes = [
+const privateRoutes = [];
 
-]
-
-export {publicRoutes, privateRoutes}
+export { publicRoutes, privateRoutes };
