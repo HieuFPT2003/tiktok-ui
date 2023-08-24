@@ -1,15 +1,14 @@
-
 @import 'normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 :root {
     --primary: rgba(244, 42, 82, 1);
-
+    --text-color: #000;
     //default layout
-    --default-layout-header-height:60px;
-    --default-layout-width:1150px;
+    --default-layout-header-height: 60px;
+    --default-layout-width: 1150px;
 }
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -25,6 +24,13 @@ body {
     text-rendering: optimizespeed;
 }
 
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
 
-
-
+a[href] {
+    color: var(--text-color);
+}
